@@ -20,8 +20,8 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="-1002029496202"
-KEY="6668909715:AAHdCAC0NPVuXFjWEdueA2VvkkMl5Ie1WRQ"
+CHATID="-7280668462"
+KEY="7509905751:AAF_0Oefbga2tkANVVnogrP4EkXQ9R5aGRM"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
 export IP=$( curl -sS icanhazip.com )
@@ -31,7 +31,7 @@ clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo -e "${CYAN}                SCRIPT PREMIUM RSESLLER${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "${CYAN} Selamat datang di JESVPN Tunneling!${NC}"
+echo -e "${CYAN} Selamat datang di NXN Tunneling!${NC}"
 echo -e "${CYAN} Nikmati koneksi aman dan cepat bersama kami.${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
@@ -101,9 +101,9 @@ MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m"
 clear
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/script-vpn-premium/scseller/main/REGIST | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/liontunnel/scsellervpn/main/REGIST | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-valid=$(curl https://raw.githubusercontent.com/script-vpn-premium/scseller/main/REGIST | grep $MYIP | awk '{print $3}')
+valid=$(curl https://raw.githubusercontent.com/liontunnel/scsellervpn/main/REGIST | grep $MYIP | awk '{print $3}')
 echo "$valid" >/usr/bin/e
 username=$(cat /usr/bin/user)
 oid=$(cat /usr/bin/ver)
@@ -122,7 +122,7 @@ mai="datediff "$Exp" "$DATE""
 Info="(${green}Active${NC})"
 Error="(${RED}ExpiRED${NC})"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl https://raw.githubusercontent.com/script-vpn-premium/scseller/main/REGIST | grep $MYIP | awk '{print $4}')
+Exp1=$(curl https://raw.githubusercontent.com/liontunnel/scsellervpn/main/REGIST | grep $MYIP | awk '{print $4}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
@@ -130,7 +130,7 @@ sts="${Error}"
 fi
 echo -e "\e[32mloading...\e[0m"
 clear
-REPO="https://raw.githubusercontent.com/script-vpn-premium/scseller/main/"
+REPO="https://raw.githubusercontent.com/liontunnel/scsellervpn/main/"
 start=$(date +%s)
 secs_to_human() {
 echo "Installation time : $((${1} / 3600)) hours $(((${1} / 60) % 60)) minute's $((${1} % 60)) seconds"
@@ -299,8 +299,8 @@ fi
 }
 clear
 restart_system() {
-USRSC=$(wget -qO- https://raw.githubusercontent.com/script-vpn-premium/scseller/main/REGIST | grep $ipsaya | awk '{print $2}')
-EXPSC=$(wget -qO- https://raw.githubusercontent.com/script-vpn-premium/scseller/main/REGIST | grep $ipsaya | awk '{print $3}')
+USRSC=$(wget -qO- https://raw.githubusercontent.com/liontunnel/scsellervpn/main/REGIST | grep $ipsaya | awk '{print $2}')
+EXPSC=$(wget -qO- https://raw.githubusercontent.com/liontunnel/scsellervpn/main/REGIST | grep $ipsaya | awk '{print $3}')
 TIMEZONE=$(printf '%(%H:%M:%S)T')
 RX=$(cat /dev/urandom | tr -dc 'A-Za-z0-9' | head -c 8) # Menghasilkan nomor acak antara 1000 dan 9999
 TEXT="
@@ -316,7 +316,7 @@ TEXT="
 <code>Script : </code><code>Reseller</code>
 <code>────────────────────</code>
 <i>Notifikasi Otomatis Dari Github </i>
-"'&reply_markup={"inline_keyboard":[[{"text":"Order","url":"https://t.me/JesVpnt"},{"text":"Contack","url":"https://wa.me/6285888801241"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"Order","url":"https://t.me/XLSMARTLC"},{"text":"Contack","url":"https://wa.me/6285974307436"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
