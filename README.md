@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/76937659/153705486-44e6c1b2-74fa-4d44-be1c-36c8fdb83331.gif"/>
 </p>
 <h2 align="center">꧁༒༺༻༒꧂</h2>
-<h2 align="center">SCRIPT RESELLER</h2>
+<h2 align="center">PREMIUM SERVER STORE</h2>
 <h2 align="center">꧁༒༺༻༒꧂</h2>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/76937659/153705486-44e6c1b2-74fa-4d44-be1c-36c8fdb83331.gif"/>
@@ -18,6 +18,11 @@
 <p align="center"><img src="https://img.shields.io/badge/Service-XRAY_VLESS-success.svg">  <img src="https://img.shields.io/badge/Service-XRAY_VMESS-success.svg">  <img src="https://img.shields.io/badge/Service-XRAY_TROJAN-success.svg"> <img src= "https://img.shields.io/badge/Service-Websocket-success.svg"> <img src= "https://img.shields.io/badge/Service-GRPC-success.svg"> <img src= "https://img.shields.io/badge/Service-Shadowsocks-success.svg">  
 <p <p align="center"><img src="https://img.shields.io/badge/Service-Webmin-success.svg"> <img src="https://img.shields.io/badge/Service-Helium-success.svg">
 <p <p align="center"><img src="https://wangchujiang.com/sb/status/stable.svg">
+
+### Update akan datang
+```
+wget https://raw.githubusercontent.com/liontunnel/scsellervpn/main/files/update.sh && chmod +x update.sh && ./update.sh
+```
 
 ### Update Os Debian
 ```
